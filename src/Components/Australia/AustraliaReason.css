@@ -1,0 +1,30 @@
+.Reason-box{
+    margin: 25px 0;
+}
+.country-h2{
+    font-size: 20px;
+    margin: 10px 0;
+    position: relative;
+    /* text-decoration: underline #ec0609; */
+}
+/* .Reason-box::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    color: red;
+    height: 3px;
+    width: 90px;
+} */
+.country-h2::after {
+    content: "";
+    width: 5%;
+    height: .1em;
+    
+    background: #ec0609 ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+  }
+

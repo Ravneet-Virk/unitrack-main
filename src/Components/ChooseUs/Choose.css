@@ -1,0 +1,24 @@
+.choose-outer{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    /* text-align: justify; */
+    padding: 20px 0;
+}
+.choose-outer h2{
+    margin: 18px 0;
+}
+
+.choose-outer ul{
+    display: inline-block;
+}
+.choose-outer ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+.choose-heading{
+    color: #ec0609;
+}
+.read-more-btn{
+    margin: 10px 0;
+}

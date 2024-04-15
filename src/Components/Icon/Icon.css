@@ -1,0 +1,16 @@
+.Icon-div{
+    /* border: 1px solid red; */
+    padding: 10px;
+    position: fixed;
+    z-index: 20;
+    top: 77%;
+    right: 4%;
+    transition: transform 0.5s;
+}
+.Icon-div img{
+    width: 80px;
+}
+.Icon-div:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
