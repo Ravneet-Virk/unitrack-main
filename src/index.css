@@ -9,6 +9,8 @@
 }
 body{
     background: #f5f5f5;
+    user-select: none;
+    overscroll-behavior: none;
     /* background: linear-gradient(45deg, red, rgb(128, 1, 1)); */
 }
 a{
