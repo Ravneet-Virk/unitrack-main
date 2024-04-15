@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 20;
     top: 77%;
-    right: 4%;
+    left: 4%;
     transition: transform 0.5s;
 }
 .Icon-div img{
