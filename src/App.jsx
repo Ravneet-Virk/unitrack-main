@@ -15,6 +15,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import CountryPage from './CountryPage'
 import Icon from './Components/Icon/Icon'
+import ScrollToTop from './ScrollToTop'
 
 
 
@@ -24,6 +25,7 @@ import Icon from './Components/Icon/Icon'
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

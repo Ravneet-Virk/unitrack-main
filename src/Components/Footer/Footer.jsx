@@ -25,6 +25,8 @@ const Footer = () => {
                         <ul>
                             <li><NavLink to="/">Home</NavLink></li>
                             <li><NavLink to="/about">About</NavLink></li>
+                            <li><NavLink to="/FAQ">FAQ</NavLink></li>
+                            <li><NavLink to="/blog">Blog</NavLink></li>
                             <li><NavLink to="/service">Service</NavLink></li>
                             <li><NavLink to="/contact">Contact Us</NavLink></li>
                         </ul>
@@ -32,10 +34,10 @@ const Footer = () => {
                     <div className="footer-col-4">
                         <h3>Follow Us</h3>
                         <ul>
-                            <li><a href='https://www.facebook.com/share/MgczxNwwe4idpjmE/?mibextid=qi2Omg'>Facebook</a></li>
-                            <li><a href='https://www.instagram.com/unitrackglobal?igsh=MWVka2dzb2hjcDBmag=='>Instagram</a></li>
-                            <li><a href='https://youtube.com/@unitrackglobal1263?si=iMx-8lPXtqpUmCZU'>Youtube</a></li>
-                            <li><a href='https://x.com/UnitrackGlobal?t=puR3Zo-fExwlecjZDLK6yA&s=09'>Twitter</a></li>
+                            <li><a href='https://www.facebook.com/share/MgczxNwwe4idpjmE/?mibextid=qi2Omg' target='_blank'>Facebook</a></li>
+                            <li><a href='https://www.instagram.com/unitrackglobal?igsh=MWVka2dzb2hjcDBmag==' target='_blank'>Instagram</a></li>
+                            <li><a href='https://youtube.com/@unitrackglobal1263?si=iMx-8lPXtqpUmCZU' target='_blank'>Youtube</a></li>
+                            <li><a href='https://x.com/UnitrackGlobal?t=puR3Zo-fExwlecjZDLK6yA&s=09' target='_blank'>Twitter</a></li>
                         </ul>
                     </div>
                 </div>

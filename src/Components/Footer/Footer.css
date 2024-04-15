@@ -89,4 +89,7 @@ ul {
     .col-2, .col-3,.col-4 {
         flex-basis: 100%;
     }
+    .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+        margin-bottom: 15px;
+    }
 }
