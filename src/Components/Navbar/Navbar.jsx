@@ -28,10 +28,12 @@ const Navbar = () => {
       </div>
 
       <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-        <NavLink to="/">
-          <img src="./images/Logo-OG.png" alt="Logo" className='Logo' data-aos="fade-right"
-            data-aos-duration="1000" />
-        </NavLink>
+        <div className="nav-logo">
+          <NavLink to="/">
+            <img src="./images/Logo-OG.png" alt="Logo" className='Logo' data-aos="fade-right"
+              data-aos-duration="1000" />
+          </NavLink>
+        </div>
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'} >
           <li>
             <NavLink to="/">Home</NavLink>
