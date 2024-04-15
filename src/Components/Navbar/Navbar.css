@@ -1,17 +1,46 @@
-nav {
+.navbar {
     width: 100%;
     /* background: #333; */
     background: #f0f0f0;
     color: #000;
     padding: 4px 0;
+    z-index: 10;
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.nav-above{
+    /* border: 1px solid red; */
+    padding: 5px;
+    display: flex;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+
+}
+.nav-above ul{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-above ul li {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0px 25px;
+}
+.nav-above img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 10;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* z-index: 10; */
 }
 
 .Logo {
@@ -63,6 +92,9 @@ nav ul li:hover {
     nav ul li {
         margin: 10px 15px;
     }
+    .nav-above ul{
+        width: 80%;
+    }
 }
 
 @media (max-width: 840px) {
@@ -105,5 +137,14 @@ nav ul li:hover {
 
     .hide-mobile-menu {
         right: -200px;
+    }
+}
+@media (max-width: 575px){
+    .nav-above ul{
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+    .nav-above ul img{
+        width: 15px;
     }
 }
